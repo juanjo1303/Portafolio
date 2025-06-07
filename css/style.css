@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(-45deg, hsl(247, 73%, 17%), hsl(247, 0%, 11%));
+  background-size: 200% 200%;
+  animation: fondoAnimado 10s ease infinite;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+@keyframes fondoAnimado {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.username {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+.contacto {
+  font-size: 16px;
+  color: #ccc;
+  text-align: right;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease;
+  margin: 5px 0;
+}
+
+/* Avatar arriba a la izquierda */
+.avatar-container {
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start; /* A la izquierda */
+  align-items: flex-start;     /* Arriba */
+}
+
+/* Imagen del avatar */
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilo para los bloques que irás poniendo */
+.bloque {
+  padding: 20px;
+  margin: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
