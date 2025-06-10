@@ -36,7 +36,6 @@ body {
   align-items: center;
   justify-content: flex-start;
   padding : 20px;
-  flex-wrap: wrap;
   gap: 20px;
 }
 
@@ -149,5 +148,15 @@ body {
   .avatar {
     width: 80px;
     height: 80px;
+  }
+
+  .contacto {
+    position: static; /* Quita el posicionamiento absoluto */
+    text-align: center;
+    margin: 10px auto;
+    font-size: 14px;
+    width: 90%;
+    padding: 12px;
+    background-color: rgba(0, 0, 0, 0.7);
   }
 }
