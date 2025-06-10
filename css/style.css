@@ -21,16 +21,6 @@ body {
   }
 }
 
-.dark-container {
-  background-color: rgba(0, 0, 0, 0.6); /* Fondo semitransparente */
-  padding: 20px;
-  border-radius: 12px;
-  margin: 20px;
-  max-width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .perfil {
   display: flex;
   align-items: center;
@@ -48,25 +38,14 @@ body {
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
 }
 
-.datos {
-  color: white;
-  font-size: 1rem;
-}
-
 .username {
   color: white;
   font-size: 1.5rem;
   font-weight: bold;
 }
 
-.info a {
-  color: #ccc;
-  text-decoration: none;
-  display: inline-block;
-  margin-top: 4px;
-}
 
-.contacto {
+.container {
   font-size: 16px;
   color: #ccc;
   text-align: right;
@@ -81,33 +60,11 @@ body {
   margin: 5px 0;
 }
 
-/* Avatar arriba a la izquierda */
-.avatar-container {
-  padding: 20px;
-  display: flex;
-  justify-content: flex-start; /* A la izquierda */
-  align-items: flex-start;     /* Arriba */
-}
-
-/* Estilo para los bloques que irás poniendo */
 .bloque {
   padding: 20px;
   margin: 10px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 8px;
-}
-
-.parte-abajo {
-  display: flex;
-  width: 100%;
-  height: 300px; /* O lo que necesites */
-}
-
-.abajo-izquierda,
-.abajo-derecha {
-  flex: 1;
-  padding: 20px;
-  box-sizing: border-box;
 }
 
 #particles-js {
@@ -141,16 +98,12 @@ body {
     text-align: center;
   }
 
-  .datos {
-    font-size: 0.95rem;
-  }
-
   .avatar {
     width: 80px;
     height: 80px;
   }
 
-  .contacto {
+  .container {
     position: static; /* Quita el posicionamiento absoluto */
     text-align: center;
     margin: 10px auto;
